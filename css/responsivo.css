@@ -1,0 +1,132 @@
+/*estilo para tablet*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+	.qualidade::after {
+		right: 66px;
+	}
+
+	.qualidadeLista li {
+		padding: 0 10px;
+	}
+
+	.qualidade2::after {
+		right: 66px;
+	}
+
+	.produtos h2 {
+		top: -130px;
+		margin-bottom: -70px;
+	}
+
+	.ind3 p {
+		font-size: 14px;
+		line-height: 20px;
+		height: 122px;
+		padding: 20px 30px;
+	}
+
+	.ind3 ul li {
+		width: 181px;
+		height: 48px;
+	}
+}
+
+/*estilo para smartphone*/
+@media only screen and (max-width: 787px) {
+	.header {
+		position: relative;
+		padding-bottom: 0;
+	}
+
+	.header img {
+		margin: 0 auto 20px;
+	}
+
+	.menu {
+		text-align: center;
+	}
+
+	.menu ul li a {
+		border: 1px solid white;
+		width: 140px;
+		display: block;
+		float: left;
+		padding: 5px 0;
+	}
+
+	.menu ul li {
+		margin: 0;
+	}
+
+
+	.introducao {
+		margin-top: 0;
+		padding-top: 20px; 
+	}
+
+	.introducaoInterna {
+		margin-top: 0px;
+	}
+
+	.fraseCall {
+		padding-top: 10px;
+	}
+	
+	.qualidade::after {
+		display: none;
+	}
+
+	.qualidade2::after {
+		display: none;
+	}
+	
+	.missao p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.missao ul li {
+    font-size: 14px;
+    line-height: 25px;
+	}
+
+	.produtos h2 {
+		top: -90px;
+		margin-bottom: -70px;
+	}
+
+	.ind3 p {
+		font-size: 14px;
+		line-height: 20px;
+		height: auto;
+		padding: 20px 30px;
+	}
+
+	.ind3 ul li {
+		width: 149px;
+		height: 48px;
+	}
+
+	.form {
+		padding-right: 0px;
+	}
+
+	.contact {
+		margin-top: 60px;
+		padding: 0px;
+	}
+	
+	.contatoForm {
+		padding-right: 0px;
+	}
+
+	.Dados {
+		margin-top: 60px;
+		padding-left: 0px; 
+		float: none;
+	}
+
+	.mapa {
+		margin-bottom: 60px;
+		margin-top: 40px;
+	}
+}

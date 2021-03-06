@@ -1,0 +1,385 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #101010;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1,h2,h3 {
+    color: white;
+}
+
+.btn {
+    border: 5px solid #043763;
+    padding: 10px 30px;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #043763;
+}
+
+.subtitulo {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitulo::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: white;
+    margin: 10px auto;
+    margin-bottom: 40px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #043763;
+    padding: 15px 0;
+    z-index: 10;
+}
+
+.menu {
+    text-align: right;
+}
+
+.menu:hover {
+    font-weight: bold;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.menu ul li a {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+.menu ul li a.on {
+    color: gray;
+}
+
+.introducao {
+    width: 100%;
+    height: 381px;
+    background: url("../img/home/fotoHeader.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: 79px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.introducao h1 {
+    font-size: 48px;
+    line-height: 60px;
+    color: white;
+    font-weight: bold;
+}
+
+.introducao h1::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: white;
+    margin: 10px auto;
+    margin-bottom: 80px;
+}
+
+.introducaoInterna {
+    width: 100%;
+    margin-top: 80px;
+    height: 160px;
+    background: url("../img/sobre/classica2.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.introducaoInterna h1 {
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.introducaoInterna h1::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: white;
+    margin: 10px auto;
+    margin-bottom: 80px;
+}
+
+.produtos {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.produtosLista li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;
+}
+
+.produtosLista li h3::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: white;
+    margin: 2px auto;
+}
+
+.produtosLista li p {
+    padding: 10px;
+}
+.produtosLista li {
+    background-color: #043763;
+}
+
+.fraseCall {
+    padding-top: 40px;
+    text-align: center;
+    clear: both;
+}
+
+.fraseCall p {
+    margin-bottom: 20px;
+}
+
+.portfolio {
+    width: 100%;
+    background-color: black;
+    padding: 40px 0;
+}
+
+.imgEnd {
+    margin-top: 20px;
+}
+
+
+.qualidade {
+    padding: 60px 0;
+}
+
+.qualidade::after {
+    content: "";
+    width: 634px;
+    height: 83px;
+    display: block;
+    background: url("../img/linhas.svg") no-repeat center;
+    position: absolute;
+    top: 199px;
+    right: 162px;
+    z-index: -1;
+}
+
+.qualidade img {
+    margin: 0 auto;
+}
+
+.qualidadeLista li {
+    text-align: center;
+    padding: 0 40px;
+    margin-top: 70px;
+}
+
+.qualidadeLista li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;
+}
+
+.qualidadeLista li h3::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: white;
+    margin: 6px auto;
+}
+
+.logo2 {
+    width: 199px;
+    height: 62px;
+}
+
+.quebra {
+    width: 100%;
+    height: 220px;
+    background: url("../img/home/fotoFiltroFooter.jpg") no-repeat center;
+    background-size: center;
+    text-align: center;
+}
+
+.quote {
+    padding-top: 70px;
+    color: white;
+}
+
+.quote p {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.quote cite {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.quote p::after, .quote p::before {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: white;
+    margin: 13px auto;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+    padding: 20px 0;
+    color: white;
+}
+
+.footer h3 {
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.footer h3:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0 12px 0;
+}
+
+.historia {
+    padding-right: 40px;
+}
+
+.contato ul li {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.rede ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.rede ul li a {
+    display: block;
+    padding: 5px;
+}
+
+.rede ul li a:hover {
+    background-color: white;
+}
+
+.footerEnd {
+    width: 100%;
+    background-color: #043763;
+    padding: 20px 0;
+}
+
+/*Slide JavaScript */
+[data-slide] {
+    position: relative;
+  }
+  [data-slide] > * {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+  }
+  [data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: opacity 500ms;
+    z-index: 1;
+  }
+
+  /*Nav estilo*/
+  .js [data-slide-nav] {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  .js [data-slide-nav] button {
+    cursor: pointer;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 4px;
+    border: none;
+    padding: 0px;
+    border-radius: 6px;
+    text-indent: -99px;
+    overflow: hidden;
+    background: #1d1d1d;
+  }
+
+  .js [data-slide-nav] button.active {
+      background: #043763;
+  }
+
+  .js [data-anime] {
+      opacity: 0;
+      transform: translate3d(0, -20px, 0)
+  }
+
+  .js .anime {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition: opacity 800ms, transform 800ms;
+}

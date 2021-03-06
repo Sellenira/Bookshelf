@@ -1,0 +1,57 @@
+.missao {
+    padding: 60px 0px;
+    color: white;
+}
+
+.missao h2 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.missao p {
+    font-size: 18px;
+    line-height: 25px;
+    padding-right: 60px;
+}
+
+.missao h2:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0 12px 0;
+}
+
+.missao ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.equipe {
+    padding-top: 90px;
+}
+
+.qualidade2 {
+    padding: 60px 0;
+    overflow: auto;
+}
+
+.qualidade2::after {
+    content: "";
+    width: 634px;
+    height: 83px;
+    display: block;
+    background: url("../img/linhas.svg") no-repeat center;
+    position: absolute;
+    top: 105px;
+    right: 162px;
+    z-index: -1;
+}
+
+.qualidade2 img {
+    margin: 0 auto;
+}
