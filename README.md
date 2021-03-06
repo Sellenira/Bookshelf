@@ -11,7 +11,7 @@ O projeto foi feito para colocar em prática os conhecimentos adquiridos no curs
 ---
 * CSS
 * HTML
-* JavaScrit Plugins  - SimpleAnime e SimpleSlide
+* JavaScrit Plugins  - [SimpleAnime](https://github.com/origamid/simple-anime) e [SimpleSlide](https://github.com/origamid/simple-slide)
 * Adobe XD (para o wireframe)
 * Visual Studio Code
 
