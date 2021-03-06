@@ -1,7 +1,7 @@
 # Bookshelf Estantes Personalizadas 📚
 ---
-![logo](./Bookshelf/img/marca.svg)
-<img src="./Bookshelf/img/marca.svg">
+
+![logo](https://user-images.githubusercontent.com/78499911/110220982-2aa51700-7ea8-11eb-92e2-d039b05d1c00.jpg)
 
 # Sobre ✏️
 ---
