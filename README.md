@@ -23,7 +23,7 @@ Clique [aqui](https://abookshelf.netlify.app) para visualizar
 ![demo](https://user-images.githubusercontent.com/78499911/110220707-32fc5280-7ea6-11eb-8d30-82e129474c98.jpg)
 
 ### Mobile:
-![IMG-3900](https://user-images.githubusercontent.com/78499911/110247501-5927fe00-7f4b-11eb-898a-2cd803812208.jpg)
+![IMG-3900_Easy-Resize com](https://user-images.githubusercontent.com/78499911/110247620-df444480-7f4b-11eb-9ee3-7fc1b33c5156.jpg)
 	
 ---
 Desenvolvido por Marselle Nira 🙋
